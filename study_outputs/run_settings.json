@@ -1,0 +1,63 @@
+{
+  "cache_version": 1,
+  "force_rerun": false,
+  "generated_design_candidate_pool": 64,
+  "generated_design_coding": "paper_exact",
+  "generated_design_restarts": 8,
+  "n_jobs": -1,
+  "nint_design_ids": [
+    "design1_n21m8",
+    "design2_n27m20"
+  ],
+  "nint_multipliers_by_design": null,
+  "nrep_study_nint": "2n",
+  "nrep_study_ntop": 20,
+  "nrep_study_pkeep": 0.25,
+  "nrep_values": [
+    100,
+    500,
+    1000,
+    4000
+  ],
+  "ntop_pkeep_nint": "2n",
+  "ntop_pkeep_nrep": 1000,
+  "ntop_values": [
+    20,
+    30,
+    40,
+    60,
+    80,
+    100
+  ],
+  "output_dir": "study_outputs",
+  "pkeep_values": [
+    0.1,
+    0.25,
+    0.4,
+    0.55,
+    0.7
+  ],
+  "random_state": 2026,
+  "reps_per_condition": 200,
+  "reuse_saved_results": true,
+  "run_name": "generated_baseline",
+  "scenario_ids_by_design": null,
+  "show_progress": true,
+  "simulation_design_ids": [
+    "design1_n21m8",
+    "design2_n27m20",
+    "design5_n8m12"
+  ],
+  "source_sha256": "69f8d639c3dcdebb928e05f32b7cf13dcdaa8ad5a94f08f687cfd4d2f5fb081b",
+  "studies": [
+    "nint",
+    "ntop_pkeep",
+    "nrep"
+  ],
+  "task_shard_index": 0,
+  "task_shards": 1,
+  "write_cache_file": true,
+  "write_plots": true,
+  "write_replication_tables": true,
+  "write_settings_file": true
+}
