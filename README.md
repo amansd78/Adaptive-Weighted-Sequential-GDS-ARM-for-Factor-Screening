@@ -111,10 +111,7 @@ The adaptive-sampling variant keeps a fixed repetition budget but changes the in
 
 For interaction block $e=(a,b)$, the unnormalized proposal weight is
 
-$$
-\widetilde q_e = q_{\min} + \frac{1-\lambda}{|\mathcal E_{\mathrm{int}}|}
-+ \lambda\{(1-\eta)v_e + \eta u_a u_b\}.
-$$
+$$\widetilde q_e = q_{\min} + \frac{1-\lambda}{|\mathcal E_{\mathrm{int}}|} + \lambda\{(1-\eta)v_e + \eta u_a u_b\}.$$
 
 The reported configuration uses `sampling_lambda = 0.7`, `sampling_eta = 0.5`, two warm-up batches, and `sampling_block_floor = 0.001`.
 
